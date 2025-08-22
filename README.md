@@ -119,13 +119,13 @@ The library is under [MIT license](https://github.com/ccxt-net/ccxt.net/blob/mas
 
 ```bash
 # Package Manager Console
-Install-Package CCXT.NET -Version 1.5.2
+Install-Package CCXT.NET -Version 1.5.3
 
 # .NET CLI
-dotnet add package CCXT.NET --version 1.5.2
+dotnet add package CCXT.NET --version 1.5.3
 
 # PackageReference
-<PackageReference Include="CCXT.NET" Version="1.5.2" />
+<PackageReference Include="CCXT.NET" Version="1.5.3" />
 ```
 
 ### Clone Repository

@@ -1,5 +1,14 @@
 ﻿# Сhangelog
 
+## Version 1.5.3 2025-08-22
+
+### Fixes
+- Fixed netstandard2.0 build failure by replacing usage of `HashCode.Combine` in `OHLCVItem.GetHashCode()` with a framework-agnostic implementation.
+- No public API changes. Verified builds across all target frameworks (netstandard2.0, netstandard2.1, net8.0, net9.0).
+
+### Housekeeping
+- Updated package release notes to reflect the fix.
+
 ## Version 1.5.2 2025-08-08
 
 ### Major Exchange Reorganization

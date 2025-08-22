@@ -1,42 +1,68 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-		<TargetFrameworks>netstandard2.1;net8.0;net9.0</TargetFrameworks>
+    	<!-- Target Framework -->
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net8.0;net9.0</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
 
-		<Title>CryptoCurrency eXchange Trading Library for .NET</Title>
+		<!-- Assembly Information -->
+        <AssemblyName>CCXT.NET</AssemblyName>
+        <RootNamespace>CCXT.NET</RootNamespace>
+
+		<!-- Versioning -->
+		<Version>1.5.3</Version>
+		<AssemblyVersion>1.5.3.0</AssemblyVersion>
+		<FileVersion>1.5.3.0</FileVersion>
+
+		<!-- Package Information -->
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>CCXT.NET</PackageId>
+        <Authors>SEONGAHN LEE</Authors>
         <Product>CCXT</Product>
         <Company>ODINSOFT</Company>
+		<Title>CryptoCurrency eXchange Trading Library for .NET</Title>
         <Description>CCXT.NET – CryptoCurrency eXchange Trading Library for .NET</Description>
         <Copyright>Copyright OdinSoft Co., Ltd. 2015~2025</Copyright>
-        <AssemblyTitle>CCXT.NET</AssemblyTitle>
-        <Authors>SEONGAHN LEE</Authors>
-        <AssemblyName>CCXT.NET</AssemblyName>
-        
-		<PackageId>CCXT.NET</PackageId>
-		<PackageTags>bitcoin;cryptocurrency;exchange;trading;market-data;ccxt;exchange-markets;altcoin;api;arbitrage;bot;crypto;e-commerce;invest;library;strategy;trade;merchant;cryptocoin</PackageTags>
+
+		<!-- Package Settings -->
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
         <PackageProjectUrl>https://github.com/ccxt-net/ccxt.net</PackageProjectUrl>
         <PackageIcon>ccxt.net.api.png</PackageIcon>
-        <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
-        <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-        <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-        <RootNamespace>CCXT.NET</RootNamespace>
-        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-        
-		<Version>1.5.2</Version>
-        <PackageReleaseNotes>Major release: Added 94 new exchanges (total 120), migrated to 2-letter ISO country codes, standardized namespace convention, added .NET 9.0 support, updated dependencies</PackageReleaseNotes>
-        <AssemblyVersion>1.5.2.15</AssemblyVersion>
-        <FileVersion>1.5.2.15</FileVersion>
-        
-		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>bitcoin;cryptocurrency;exchange;trading;market-data;ccxt;exchange-markets;altcoin;api;arbitrage;bot;crypto;e-commerce;invest;library;strategy;trade;merchant;cryptocoin</PackageTags>
+		<PackageReleaseNotes>v1.5.3 - Fixes
+Resolved netstandard2.0 build failure by replacing usage of HashCode.Combine in OHLCVItem.GetHashCode() with a framework-agnostic implementation.
+No public API changes. Verified builds across all target frameworks (netstandard2.0, netstandard2.1, net8.0, net9.0).
+Housekeeping
+Updated package release notes to reflect the fix.
+Optional (single-line for NuGet PackageReleaseNotes):
 
+Fix: netstandard2.0 build failure resolved by replacing HashCode.Combine with framework-agnostic hash in OHLCVItem.GetHashCode(). No API changes.</PackageReleaseNotes>
+
+		<!-- Repository Information -->
 		<RepositoryUrl>https://github.com/ccxt-net/ccxt.net</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+
+	    <!-- Code Quality Settings - Simplified -->
+		<Nullable>disable</Nullable>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+
+		<!-- Suppress most warnings except critical ones -->
+		<NoWarn>$(NoWarn);CS1998;CS0618</NoWarn>
+
+		<!-- Build Settings -->
+		<Deterministic>true</Deterministic>
+		<ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+		<Platforms>AnyCPU;x64;x86</Platforms>
+		<ApplicationIcon>ccxt.net.ico</ApplicationIcon>
+
+		<!-- Debugging and Symbols -->
+		<DebugType>embedded</DebugType>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
     </PropertyGroup>
-	
-    <PropertyGroup>
-		<NoWarn>CS1998</NoWarn>
-	</PropertyGroup>
 
     <ItemGroup>
 		<None Include="..\README.md">
@@ -47,6 +73,7 @@
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
+		<Content Include="ccxt.net.ico" />
 		<None Include="..\docs\logo-files\ccxt.net.api.png">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>

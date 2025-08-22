@@ -226,7 +226,18 @@ namespace CCXT.NET.Shared.Coin.Public
 
         public override int GetHashCode()
         {
-            return HashCode.Combine(timestamp, highPrice, lowPrice, closePrice, openPrice, volume);
+            // Use a framework-agnostic hash implementation to support netstandard2.0
+            unchecked
+            {
+                int hash = 17;
+                hash = hash * 23 + timestamp.GetHashCode();
+                hash = hash * 23 + highPrice.GetHashCode();
+                hash = hash * 23 + lowPrice.GetHashCode();
+                hash = hash * 23 + closePrice.GetHashCode();
+                hash = hash * 23 + openPrice.GetHashCode();
+                hash = hash * 23 + volume.GetHashCode();
+                return hash;
+            }
         }
     }
 
