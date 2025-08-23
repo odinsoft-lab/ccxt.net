@@ -168,7 +168,7 @@ var balance = await privateClient.FetchBalanceAsync();
 
 - 📦 [NuGet Package](https://www.nuget.org/packages/CCXT.NET)
 - 🏷️ [GitHub Releases](https://github.com/ccxt-net/ccxt.net/releases)
-- 📋 [Changelog](https://github.com/ccxt-net/ccxt.net/blob/master/docs/CHANGELOG.md)
+- 📋 [Changelog](https://github.com/ccxt-net/ccxt.net/blob/master/docs/releases/README.md)
 
 ## Contributing
 

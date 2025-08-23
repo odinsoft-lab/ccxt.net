@@ -57,7 +57,7 @@ dotnet run --project samples/Program.cs
 - **src/**: Main library code targeting .NET Standard 2.1, .NET 8.0, and .NET 9.0
 - **tests/**: Test projects using xUnit framework
 - **samples/**: Example implementations for various exchanges
-- **docs/**: Documentation files (CHANGELOG, CONTRIBUTING, SECURITY)
+- **docs/**: Documentation files (docs/releases/README, CONTRIBUTING)
 
 ### Exchange Implementation Pattern
 Each exchange follows a consistent structure organized by 2-letter ISO country codes (ISO 3166-1 alpha-2):
@@ -173,7 +173,7 @@ namespace CCXT.NET.{ExchangeName}
 2. **During Development**: Follow the established patterns and coding standards
 3. **After Implementation**: Update documentation to reflect changes
 4. **Testing**: Run tests to ensure no breaking changes
-5. **Documentation**: Keep CHANGELOG.md updated with all changes
+5. **Documentation**: Keep docs/releases/README.md updated with all changes
 
 ## Quick Reference
 

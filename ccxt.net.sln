@@ -12,13 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "logo-files", "logo-files", "{5A50B081-F4DF-42AD-9C52-3FDADE6D2919}"
-	ProjectSection(SolutionItems) = preProject
-		docs\logo-files\ccxt.net.api.png = docs\logo-files\ccxt.net.api.png
-		docs\logo-files\ccxt.net.ico = docs\logo-files\ccxt.net.ico
-		docs\logo-files\favicon-korbit-16x16.png = docs\logo-files\favicon-korbit-16x16.png
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{F5F13CB7-91AE-498C-AD71-9EC31AA49A5B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E137A9C-8E9F-4484-B4A2-D190573B082C}"
@@ -31,9 +24,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BC661016
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
 	ProjectSection(SolutionItems) = preProject
-		docs\CHANGELOG.md = docs\CHANGELOG.md
 		docs\CONTRIBUTING.md = docs\CONTRIBUTING.md
-		docs\SECURITY.md = docs\SECURITY.md
+		docs\DEPLOYMENT.md = docs\DEPLOYMENT.md
+		docs\DESIGN.md = docs\DESIGN.md
+		docs\ROADMAP.md = docs\ROADMAP.md
+		docs\TASK.md = docs\TASK.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ccxt.samples", "samples\ccxt.samples.csproj", "{9930BD42-48B1-86E2-686B-28DC1DA56343}"
@@ -98,7 +93,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5A50B081-F4DF-42AD-9C52-3FDADE6D2919} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
 		{1AF35DB8-580D-4D5B-A50F-B2C63CF5856D} = {9E137A9C-8E9F-4484-B4A2-D190573B082C}
 		{E972A495-D622-4D66-9564-E8EB170E740A} = {BC661016-696B-4C21-BC35-CB49FBED7AA1}
 		{9930BD42-48B1-86E2-686B-28DC1DA56343} = {F5F13CB7-91AE-498C-AD71-9EC31AA49A5B}

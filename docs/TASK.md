@@ -241,10 +241,9 @@ These can be completed quickly for immediate impact:
 
 ## 🔗 References
 
-- [Roadmap](./ROADMAP.md) - Long-term vision and strategy
-- [Contributing](./CONTRIBUTING.md) - How to contribute
-- [Changelog](./CHANGELOG.md) - Version history
-- [Security](./SECURITY.md) - Security policies
+- [Roadmap](./docs/ROADMAP.md) - Long-term vision and strategy
+- [Contributing](./docs/CONTRIBUTING.md) - How to contribute
+- [Changelog](./docs/releases/README.md) - Version history
 
 ---
 

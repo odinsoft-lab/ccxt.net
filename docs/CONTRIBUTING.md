@@ -126,10 +126,7 @@ ccxt.net/
 ├── samples/                      # Sample applications
 │   └── ccxt.samples.csproj      # Sample project file
 ├── docs/                         # Documentation
-│   ├── CHANGELOG.md              # Version history
 │   ├── CONTRIBUTING.md          # This file
-│   ├── PUBLISH.md               # Publishing guide
-│   └── SECURITY.md              # Security policy
 ├── scripts/                      # Build and deployment scripts
 └── README.md                     # Main documentation
 ```
@@ -374,7 +371,7 @@ When adding features or exchanges, update:
 
 ### Changelog
 
-Document all changes in `docs/CHANGELOG.md`:
+Document all changes in `docs/releases/README.md`:
 - New features
 - Bug fixes
 - Breaking changes
