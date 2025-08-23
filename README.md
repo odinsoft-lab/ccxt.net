@@ -1,8 +1,11 @@
 # CCXT.NET - CryptoCurrency eXchange Trading Library for .NET
 
-[![Build status](https://ci.appveyor.com/api/projects/status/dnp9i3t6sexv9tpa?svg=true)](https://ci.appveyor.com/project/ccxt-net/ccxt-net)
-[![NuGet Downloads](https://img.shields.io/nuget/dt/ccxt.net.svg)](https://www.nuget.org/packages/CCXT.NET)
-[![License](https://img.shields.io/github/license/ccxt-net/ccxt.net.svg)](https://github.com/ccxt-net/ccxt.net/blob/master/LICENSE.txt)
+[![NuGet](https://img.shields.io/nuget/v/CCXT.NET.svg)](https://www.nuget.org/packages/CCXT.NET/)
+[![.NET](https://img.shields.io/badge/.NET-8.0%20%7C%209.0-blue.svg)](https://dotnet.microsoft.com/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+[![Downloads](https://img.shields.io/nuget/dt/CCXT.NET.svg)](https://www.nuget.org/packages/CCXT.NET/)
+
+
 
 ## Features
 
@@ -110,7 +113,7 @@ These exchanges have basic structure implemented and are ready for API integrati
 The library is updated frequently with new crypto markets, altcoin exchanges, bug fixes, and API endpoints. 
 If you need support for a specific exchange that's not currently included, please open an issue on GitHub or contact us via email.
 
-The library is under [MIT license](https://github.com/ccxt-net/ccxt.net/blob/master/LICENSE.txt), that means it's absolutely free for any developer to build commercial and opensource software on top of it, but use it at your own risk with no warranties, as is.
+The library is under [MIT license](https://github.com/ccxt-net/ccxt.net/blob/master/LICENSE.md), that means it's absolutely free for any developer to build commercial and opensource software on top of it, but use it at your own risk with no warranties, as is.
 
 
 ## Installation
@@ -201,3 +204,13 @@ If you find CCXT.NET useful, consider supporting development:
 ---
 
 **Built with ❤️ by the ODINSOFT Team**
+## 👥 Team
+
+### **Core Development Team**
+- **SEONGAHN** - Lead Developer & Project Architect ([lisa@odinsoft.co.kr](mailto:lisa@odinsoft.co.kr))
+- **YUJIN** - Senior Developer & Exchange Integration Specialist ([yoojin@odinsoft.co.kr](mailto:yoojin@odinsoft.co.kr))
+- **SEJIN** - Software Developer & API Implementation ([saejin@odinsoft.co.kr](mailto:saejin@odinsoft.co.kr))
+
+---
+
+**Built with ❤️ by the ODINSOFT Team** | [⭐ Star us on GitHub](https://github.com/ccxt-net/ccxt.net)

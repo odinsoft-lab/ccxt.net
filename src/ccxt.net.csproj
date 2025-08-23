@@ -24,7 +24,7 @@
         <Copyright>Copyright OdinSoft Co., Ltd. 2015~2025</Copyright>
 
 		<!-- Package Settings -->
-        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
         <PackageProjectUrl>https://github.com/ccxt-net/ccxt.net</PackageProjectUrl>
         <PackageIcon>ccxt.net.api.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -69,7 +69,7 @@ Fix: netstandard2.0 build failure resolved by replacing HashCode.Combine with fr
 			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
 		</None>
-		<None Include="..\LICENSE.txt">
+		<None Include="..\LICENSE.md">
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
@@ -78,7 +78,7 @@ Fix: netstandard2.0 build failure resolved by replacing HashCode.Combine with fr
 			<Pack>True</Pack>
 			<PackagePath></PackagePath>
 		</None>
-		<Content Include="..\LICENSE.txt" Link="LICENSE.txt" />
+		<Content Include="..\LICENSE.md" Link="LICENSE.md" />
 	</ItemGroup>
 
 	<ItemGroup>
