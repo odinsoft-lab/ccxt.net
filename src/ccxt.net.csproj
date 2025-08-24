@@ -47,9 +47,10 @@ Fix: netstandard2.0 build failure resolved by replacing HashCode.Combine with fr
 		<Nullable>disable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 
-		<!-- Suppress most warnings except critical ones -->
-		<NoWarn>$(NoWarn);CS1998;CS0618</NoWarn>
+		<!-- Suppress some noisy warnings, but keep CS1591 active to encourage documentation -->
+		<NoWarn>$(NoWarn);CS1998;CS0618;CS1591</NoWarn>
 
 		<!-- Build Settings -->
 		<Deterministic>true</Deterministic>
