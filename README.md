@@ -113,7 +113,7 @@ These exchanges have basic structure implemented and are ready for API integrati
 The library is updated frequently with new crypto markets, altcoin exchanges, bug fixes, and API endpoints. 
 If you need support for a specific exchange that's not currently included, please open an issue on GitHub or contact us via email.
 
-The library is under [MIT license](https://github.com/ccxt-net/ccxt.net/blob/master/LICENSE.md), that means it's absolutely free for any developer to build commercial and opensource software on top of it, but use it at your own risk with no warranties, as is.
+The library is under [MIT license](https://github.com/odinsoft-lab/ccxt.net/blob/master/LICENSE.md), that means it's absolutely free for any developer to build commercial and opensource software on top of it, but use it at your own risk with no warranties, as is.
 
 
 ## Installation
@@ -134,7 +134,7 @@ dotnet add package CCXT.NET --version 1.5.3
 ### Clone Repository
 
 ```bash
-git clone https://github.com/ccxt-net/ccxt.net.git
+git clone https://github.com/odinsoft-lab/ccxt.net.git
 cd ccxt.net
 dotnet build
 ```
@@ -160,19 +160,19 @@ var balance = await privateClient.FetchBalanceAsync();
 
 ## Documentation
 
-- 📚 [Wiki](https://github.com/ccxt-net/ccxt.net/wiki) - Detailed documentation
-- 📝 [API Reference](https://github.com/ccxt-net/ccxt.net/wiki/API-Reference) - Complete API documentation
-- 🚀 [Examples](https://github.com/ccxt-net/ccxt.net/tree/master/samples) - Sample code
+- 📚 [Wiki](https://github.com/odinsoft-lab/ccxt.net/wiki) - Detailed documentation
+- 📝 [API Reference](https://github.com/odinsoft-lab/ccxt.net/wiki/API-Reference) - Complete API documentation
+- 🚀 [Examples](https://github.com/odinsoft-lab/ccxt.net/tree/master/samples) - Sample code
 
 ## Releases
 
 - 📦 [NuGet Package](https://www.nuget.org/packages/CCXT.NET)
-- 🏷️ [GitHub Releases](https://github.com/ccxt-net/ccxt.net/releases)
-- 📋 [Changelog](https://github.com/ccxt-net/ccxt.net/blob/master/docs/releases/README.md)
+- 🏷️ [GitHub Releases](https://github.com/odinsoft-lab/ccxt.net/releases)
+- 📋 [Changelog](https://github.com/odinsoft-lab/ccxt.net/blob/master/docs/releases/README.md)
 
 ## Contributing
 
-We welcome contributions! Please read our [Contributing Guidelines](https://github.com/ccxt-net/ccxt.net/blob/master/docs/CONTRIBUTING.md) for details on:
+We welcome contributions! Please read our [Contributing Guidelines](https://github.com/odinsoft-lab/ccxt.net/blob/master/docs/CONTRIBUTING.md) for details on:
 - How to submit issues
 - How to contribute code
 - Coding standards
@@ -182,8 +182,8 @@ We welcome contributions! Please read our [Contributing Guidelines](https://gith
 ## Support
 
 ### Need Help?
-- 📖 Check the [Wiki](https://github.com/ccxt-net/ccxt.net/wiki)
-- 🐛 Report issues on [GitHub](https://github.com/ccxt-net/ccxt.net/issues)
+- 📖 Check the [Wiki](https://github.com/odinsoft-lab/ccxt.net/wiki)
+- 🐛 Report issues on [GitHub](https://github.com/odinsoft-lab/ccxt.net/issues)
 - 📧 Contact us at help@odinsoft.co.kr
 - 🌐 Visit [ODINSOFT](https://www.odinsoft.co.kr)
 
@@ -213,4 +213,4 @@ If you find CCXT.NET useful, consider supporting development:
 
 ---
 
-**Built with ❤️ by the ODINSOFT Team** | [⭐ Star us on GitHub](https://github.com/ccxt-net/ccxt.net)
+**Built with ❤️ by the ODINSOFT Team** | [⭐ Star us on GitHub](https://github.com/odinsoft-lab/ccxt.net)

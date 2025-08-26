@@ -251,8 +251,8 @@ Exchanges may implement additional functions beyond the standard, but must:
 
 For questions about implementing the standard:
 - Email: help@odinsoft.co.kr
-- GitHub Issues: https://github.com/ccxt-net/ccxt.net/issues
-- Documentation: https://github.com/ccxt-net/ccxt.net/wiki
+- GitHub Issues: https://github.com/odinsoft-lab/ccxt.net/issues
+- Documentation: https://github.com/odinsoft-lab/ccxt.net/wiki
 
 ---
 

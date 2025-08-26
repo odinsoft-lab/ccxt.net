@@ -73,7 +73,7 @@ git clone https://github.com/YOUR_USERNAME/ccxt.net.git
 cd ccxt.net
 
 # Add upstream remote
-git remote add upstream https://github.com/ccxt-net/ccxt.net.git
+git remote add upstream https://github.com/odinsoft-lab/ccxt.net.git
 
 # Install dependencies and build
 dotnet restore

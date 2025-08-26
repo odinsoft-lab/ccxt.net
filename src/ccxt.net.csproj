@@ -25,7 +25,7 @@
 
 		<!-- Package Settings -->
         <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-        <PackageProjectUrl>https://github.com/ccxt-net/ccxt.net</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/odinsoft-lab/ccxt.net</PackageProjectUrl>
         <PackageIcon>ccxt.net.api.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageTags>bitcoin;cryptocurrency;exchange;trading;market-data;ccxt;exchange-markets;altcoin;api;arbitrage;bot;crypto;e-commerce;invest;library;strategy;trade;merchant;cryptocoin</PackageTags>
@@ -39,7 +39,7 @@ Optional (single-line for NuGet PackageReleaseNotes):
 Fix: netstandard2.0 build failure resolved by replacing HashCode.Combine with framework-agnostic hash in OHLCVItem.GetHashCode(). No API changes.</PackageReleaseNotes>
 
 		<!-- Repository Information -->
-		<RepositoryUrl>https://github.com/ccxt-net/ccxt.net</RepositoryUrl>
+		<RepositoryUrl>https://github.com/odinsoft-lab/ccxt.net</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
 
