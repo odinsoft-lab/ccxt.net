@@ -203,14 +203,4 @@ If you find CCXT.NET useful, consider supporting development:
 
 ---
 
-**Built with ❤️ by the ODINSOFT Team**
-## 👥 Team
-
-### **Core Development Team**
-- **SEONGAHN** - Lead Developer & Project Architect ([lisa@odinsoft.co.kr](mailto:lisa@odinsoft.co.kr))
-- **YUJIN** - Senior Developer & Exchange Integration Specialist ([yoojin@odinsoft.co.kr](mailto:yoojin@odinsoft.co.kr))
-- **SEJIN** - Software Developer & API Implementation ([saejin@odinsoft.co.kr](mailto:saejin@odinsoft.co.kr))
-
----
-
 **Built with ❤️ by the ODINSOFT Team** | [⭐ Star us on GitHub](https://github.com/odinsoft-lab/ccxt.net)
